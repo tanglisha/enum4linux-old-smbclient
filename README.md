@@ -1,7 +1,13 @@
-This is the older version of smbclient that showed the version of samba when getting information about Windows clients. It also includes enum4linux.
+This is the older version of smbclient that showed the version of samba when getting information about Windows clients. It also includes [enum4linux](https://github.com/portcullislabs/enum4linux).
 
 # Install
-To use on Kali, first install docker. On newer versions of Kali, you'll want to install `docker-ce`, on older versions you'll want `docker.io`.
+Only one of these will work. Try the newer version first, if it doesn't work try the older one.
+
+## Newer versions of Kali
+`apt-get install docker-ce`
+
+## Older versions of Kali
+`apt-get install docker-io`
 
 # Usage
 You can use the smbclient and enum4linux like normal after the docker run command setup.
