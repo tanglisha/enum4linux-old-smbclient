@@ -20,4 +20,4 @@ or
 
 It'll take a bit to download the first time you run it.
 
-There are also a couple of bash files in this directory that you can run if you don't feel like typing all of that out. `./enum4linux.sh` and `./smbclient.sh`.
+There are also a couple of bash files in the `bin` directory that you can run if you don't feel like typing all of that out. `./enum4linux-old` and `./smbclient-old`. Add the bin to your PATH if you want to be REALLY lazy.
