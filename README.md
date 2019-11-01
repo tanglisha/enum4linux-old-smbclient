@@ -13,7 +13,9 @@ Only one of these will work. Try the newer version first, if it doesn't work try
 You can use the smbclient and enum4linux like normal after the docker run command setup.
 
 ```docker run --rm tanglisha/enum4linux-old-smbclient smbclient -L -I [IP]```
+
 or
+
 ```docker run --rm tanglisha/enum4linux-old-smbclient enum4linux /[SHARENAME]```
 
 It'll take a bit to download the first time you run it.
